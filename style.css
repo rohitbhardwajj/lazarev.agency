@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    /* font-family: gilroy; */
     color: #fff;
 
 }
@@ -19,7 +19,7 @@ nav {
     /* background-color: rgb(0, 255, 68); */
     display: flex;
     align-items: flex-start;
-    height: 12vh;
+    height: 7rem;
     width: 100%;
     padding: 2vw 10.4vw;
     justify-content: space-between;
@@ -28,12 +28,12 @@ nav {
 }
 
 nav h1 {
-    font-size: 1.6vw;
+    font-size: 2rem;
 }
 
 .nav-part2 {
     display: flex;
-    gap: 2vw;
+    gap: 1.8rem;
     align-items: flex-start;
     padding: 1vh 0;
     position: relative;
@@ -41,15 +41,15 @@ nav h1 {
 }
 
 .nav-part2 h4 {
-    font-size: 0.73vw;
+    font-size: 0.73rem;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 2.6vw;
+    margin-bottom: 2.6rem;
     cursor: pointer;
 }
 
 .nav-part2 h5 {
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
     /* background-color: red; */
     display: none;
     overflow: hidden;
@@ -58,7 +58,7 @@ nav h1 {
 
 
 .nav-part2 h5 span {
-    font-size: 0.77vw;
+    font-size: 1rem;
     font-weight: 400;
     transform: translateY(25px);
     display: inline-block;
@@ -68,11 +68,11 @@ nav button {
     background-color: #0BA34E;
     display: flex;
     align-items: center;
-    padding: 14px 20px;
-    font-size: 0.85vw;
+    padding: 1rem 2rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     font-weight: 700;
-    border-radius: 50px;
+    border-radius: 50rem;
     border: none;
     cursor: pointer;
 }
